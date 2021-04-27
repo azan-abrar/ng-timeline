@@ -1,0 +1,61 @@
+<div class="header">
+  <nav class="navbar navbar-expand-md navbar-light">
+    <span class="navbar-brand">
+      <img src="assets/images/logo-white.png" alt="">
+    </span>
+    <button class="navbar-toggler" type="button" aria-controls="navbarContent" [attr.aria-expanded]="!collapsed" aria-label="Toggle navigation" (click)="collapsed = !collapsed">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse" [class.collapse]="collapsed" id="navbarContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item" ngbDropdown>
+          <form class="search">
+            <div class="form-group mb-0">
+              <input type="text" class="form-control" id="exampleDropdownFormEmail1" placeholder="Search here..." autocomplete="username">
+            </div>
+          </form>
+        </li>
+        <li class="nav-item" ngbDropdown>
+          <a class="nav-link" tabindex="0" ngbDropdownToggle id="navbarDropdown1">
+            <img src="assets/images/apps.png" alt="" class="w-100">
+          </a>
+          <div ngbDropdownMenu aria-labelledby="navbarDropdown1" class="dropdown-menu">
+            <a ngbDropdownItem href="#" (click)="$event.preventDefault()">Action</a>
+            <a ngbDropdownItem href="#" (click)="$event.preventDefault()">Another action</a>
+            <a ngbDropdownItem href="#" (click)="$event.preventDefault()">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item" ngbDropdown>
+          <a class="nav-link" tabindex="0" ngbDropdownToggle id="navbarDropdown2">
+            <img src="assets/images/bell.png" alt="" class="w-100">
+          </a>
+          <div ngbDropdownMenu aria-labelledby="navbarDropdown2" class="dropdown-menu dropdown-menu-right">
+            <a ngbDropdownItem href="#" (click)="$event.preventDefault()">Action</a>
+            <a ngbDropdownItem href="#" (click)="$event.preventDefault()">Another action</a>
+            <a ngbDropdownItem href="#" (click)="$event.preventDefault()">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item" ngbDropdown display="dynamic" placement="bottom-right">
+          <a class="nav-link" tabindex="0" ngbDropdownToggle id="navbarDropdown3">
+            <img src="assets/images/message.jpeg" alt="" class="w-100">
+          </a>
+          <div ngbDropdownMenu aria-labelledby="navbarDropdown3" class="dropdown-menu">
+            <a ngbDropdownItem href="#" (click)="$event.preventDefault()">Action</a>
+            <a ngbDropdownItem href="#" (click)="$event.preventDefault()">Another action</a>
+            <a ngbDropdownItem href="#" (click)="$event.preventDefault()">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item" ngbDropdown display="dynamic" placement="bottom-right">
+          <a class="nav-link" tabindex="0" ngbDropdownToggle id="navbarDropdown3">
+            <img src="assets/images/flag.png" alt="" class="w-100">
+          </a>
+          <div ngbDropdownMenu aria-labelledby="navbarDropdown3" class="dropdown-menu">
+            <a ngbDropdownItem href="#" (click)="$event.preventDefault()">Action</a>
+            <a ngbDropdownItem href="#" (click)="$event.preventDefault()">Another action</a>
+            <a ngbDropdownItem href="#" (click)="$event.preventDefault()">Something else here</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>

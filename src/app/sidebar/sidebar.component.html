@@ -1,0 +1,286 @@
+<div class="sidebar">
+  <div class="personal-details">
+    <div class="avatar-img">
+      <img src="assets/images/avatar1.jpg" alt="">
+    </div>
+    <div class="details">
+      <div class="name-email">
+        <h2>Robert Johnson</h2>
+        <p>robert.johnson@gmail.com</p>
+      </div>
+      <div class="log-out-dropdown">
+        <div class="row">
+          <div class="col">
+            <div ngbDropdown class="d-inline-block float-right">
+              <button class="btn" id="dropdownForm1" ngbDropdownToggle></button>
+              <div ngbDropdownMenu aria-labelledby="dropdownForm1">
+                <a href="#" ngbDropdownItem>Log Out</a>
+                <a href="#" ngbDropdownItem>Settings</a>
+                <a href="#" ngbDropdownItem>Profile</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="categories">
+    <div class="dashboard-links">
+      <h3>DASHBOARDS</h3>
+      <div class="links">
+        <div class="sub-link">
+          <a href="#" class="active">
+            <img src="assets/images/" alt="">
+            <span>Crypto</span>
+          </a>
+        </div>
+        <div class="sub-link">
+          <a href="#">
+            <img src="assets/images/" alt="">
+            <span>Listing</span>
+          </a>
+        </div>
+        <div class="sub-link">
+          <a href="#">
+            <img src="assets/images/" alt="">
+            <span>Crm</span>
+          </a>
+        </div>
+        <div class="sub-link">
+          <a href="#">
+            <img src="assets/images/" alt="">
+            <span>Intranet</span>
+          </a>
+        </div>
+        <div class="sub-link">
+          <a href="#">
+            <img src="assets/images/" alt="">
+            <span>eCommerce</span>
+          </a>
+        </div>
+        <div class="sub-link">
+          <a href="#">
+            <img src="assets/images/" alt="">
+            <span>News</span>
+          </a>
+        </div>
+        <div class="sub-link">
+          <a href="#">
+            <img src="assets/images/" alt="">
+            <span>Misc</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="component-links">
+      <h3>COMPONENTS</h3>
+      <div class="collapse-div my-3">
+        <p class="mb-2">
+          <button type="button" class="btn p-0" (click)="collapse.toggle()" [attr.aria-expanded]="!isCollapsed"
+          aria-controls="collapseExample">
+          Material UI Components
+          </button>
+        </p>
+        <div class="input-links" #collapse="ngbCollapse" [(ngbCollapse)]="isCollapsed">
+          <span>
+            INPUTS
+          </span>
+          <ul>
+            <li>
+              <a href="#">
+                <span>Buttons</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Buttons</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Buttons</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Buttons</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Buttons</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="collapse-div my-3">
+        <p class="mb-2">
+          <button type="button" class="btn p-0" (click)="collapse.toggle()" [attr.aria-expanded]="!isCollapsed"
+          aria-controls="collapseExample">
+          Coremat Components
+          </button>
+        </p>
+        <div class="input-links" #collapse="ngbCollapse" [(ngbCollapse)]="isCollapsed">
+          <span>
+            INPUTS
+          </span>
+          <ul>
+            <li>
+              <a href="#">
+                <span>Buttons</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Buttons</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Buttons</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Buttons</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Buttons</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="collapse-div my-3">
+        <p class="mb-2">
+          <button type="button" class="btn p-0" (click)="collapse.toggle()" [attr.aria-expanded]="!isCollapsed"
+          aria-controls="collapseExample">
+          Widgets
+          </button>
+        </p>
+        <div class="input-links" #collapse="ngbCollapse" [(ngbCollapse)]="isCollapsed">
+          <span>
+            INPUTS
+          </span>
+          <ul>
+            <li>
+              <a href="#">
+                <span>Buttons</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Buttons</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Buttons</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Buttons</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Buttons</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="collapse-div my-3">
+        <p class="mb-2">
+          <button type="button" class="btn p-0" (click)="collapse.toggle()" [attr.aria-expanded]="!isCollapsed"
+          aria-controls="collapseExample">
+          Metrics
+          </button>
+        </p>
+        <div class="input-links" #collapse="ngbCollapse" [(ngbCollapse)]="isCollapsed">
+          <span>
+            INPUTS
+          </span>
+          <ul>
+            <li>
+              <a href="#">
+                <span>Buttons</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Buttons</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Buttons</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Buttons</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Buttons</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="app-links">
+      <h3>APPS</h3>
+      <div class="links">
+        <div class="sub-link">
+          <a href="#" class="active">
+            <img src="assets/images/" alt="">
+            <span>Crypto</span>
+          </a>
+        </div>
+        <div class="sub-link">
+          <a href="#">
+            <img src="assets/images/" alt="">
+            <span>Listing</span>
+          </a>
+        </div>
+        <div class="sub-link">
+          <a href="#">
+            <img src="assets/images/" alt="">
+            <span>Crm</span>
+          </a>
+        </div>
+        <div class="sub-link">
+          <a href="#">
+            <img src="assets/images/" alt="">
+            <span>Intranet</span>
+          </a>
+        </div>
+        <div class="sub-link">
+          <a href="#">
+            <img src="assets/images/" alt="">
+            <span>eCommerce</span>
+          </a>
+        </div>
+        <div class="sub-link">
+          <a href="#">
+            <img src="assets/images/" alt="">
+            <span>News</span>
+          </a>
+        </div>
+        <div class="sub-link">
+          <a href="#">
+            <img src="assets/images/" alt="">
+            <span>Misc</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
