@@ -1,0 +1,68 @@
+<div class="row my-3 portfolio">
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-body">
+        <div class="box">
+          <h3 class="d-block mb-4">Your Portfolio Balance</h3>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="text">
+                <span class="d-block">Bitcoin Price</span>
+                <strong class="d-block">
+                  $9,626
+                  <span class="green">
+                    23%
+                  </span>
+                </strong>
+                <span class="d-block">Overall balance</span>
+              </div>
+              <div class="buttons my-4">
+                <button type="button" class="btn btn-info my-2 d-block" data-toggle="button" aria-pressed="false">
+                  DEPOSITE
+                </button>
+                <button type="button" class="btn my-2 d-block border" data-toggle="button" aria-pressed="false">
+                  WITHDRAW
+                </button>
+                <a href="#" class="d-block mt-5">
+                  <i class="fa fa-plus mr-2"></i>
+                  ADD WALLET
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6 portfolio-right">
+              <div class="text">
+                <span class="d-block my-4">Portfolio Distribution</span>
+                <div class="progress-bars">
+                  <p>
+                    <strong>
+                      BTC
+                      <span>8.75</span>
+                    </strong>
+                    <ngb-progressbar type="success" [value]="74"></ngb-progressbar>
+                  </p>
+                  <p>
+                    <strong>
+                      RPL
+                      <span>1.23</span>
+                    </strong>
+                    <ngb-progressbar type="warning" [value]="18"></ngb-progressbar>
+                  </p>
+                  <p>
+                    <strong>
+                      LTE
+                      <span>0.71</span>
+                    </strong>
+                    <ngb-progressbar type="danger" [value]="8"></ngb-progressbar>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="image">
+        <img src="assets/images/graph-1.png" alt="" class="w-100">
+      </div> -->
+    </div>
+  </div>
+</div>
